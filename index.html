@@ -261,6 +261,24 @@
             height: 100px;
             border-radius: 54%;
         }
+
+        .counter-up-grid {
+    grid-column-gap: 80px;
+    -ms-grid-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+
+@media screen and (max-width:768px){
+     .counter-up-grid {
+    grid-column-gap: 80px;
+    -ms-grid-columns: 1fr ;
+    grid-template-columns: 1fr ;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+}
     </style>
 </head>
 
@@ -559,17 +577,17 @@
                 </div>
             </div>
         </div>
-        <div class="counter-up-section" id="tokenomics">
+        <div class="counter-up-section" id="tokenomics" style="padding:70px 0 50px">
             <div class="container">
                 <div style="text-align: center;">
                     <h2 class="title">
                         Tokenomics</h2>
-                        <div style="color: white; font-size: 20px;">
+                        <!-- <div style="color: white; font-size: 20px;">
                            <p>Total Supply :  1 Million</p>
                             <p>Tax : 5%</p>
-                        </div>
+                        </div> -->
                 </div>
-                <!-- <div class="counter-up-wrapper">
+                 <div class="counter-up-wrapper">
                     <div class="w-layout-grid counter-up-grid">
                         <div id="w-node-b7029033-2713-245f-dd89-01709b672f87-dfa9204a"
                             class="counter-up-single-wrapper">
@@ -581,7 +599,7 @@
 
 
                                     </div>
-                                    <div class="number-categories">1,000,000,000</div>
+                                    <div class="number-categories">1M</div>
                                     <div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                                         class="all-numbers _1">
 
@@ -597,7 +615,7 @@
                             class="counter-up-single-wrapper">
                             <div class="metrics metrics-hv2">
                                 <div data-w-id="ccf8908e-44ab-9c50-16ae-e17a4828691f" class="numbers">
-                                    <div class="number-categories">0</div>
+                                    <div class="number-categories"></div>
                                     <div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                                         class="all-numbers _1">
 
@@ -607,7 +625,7 @@
 
 
                                     </div>
-                                    <div class="number-categories">/3%</div>
+                                    <div class="number-categories">5%</div>
                                 </div>
                                 <div class="number-info-text number-white-text">Tax</div>
                             </div>
@@ -631,7 +649,7 @@
                             </div>
                             <div class="counter-up-boder"></div>
                         </div>
-                        <div id="w-node-f519f29b-e32b-b8c2-278e-8b1c1ee69e25-dfa9204a"
+                        <!-- <div id="w-node-f519f29b-e32b-b8c2-278e-8b1c1ee69e25-dfa9204a"
                             class="counter-up-single-wrapper">
                             <div class="metrics metrics-hv2">
                                 <div data-w-id="f519f29b-e32b-b8c2-278e-8b1c1ee69e27" class="numbers">
@@ -653,9 +671,9 @@
                                     Renounced
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                </div> -->
+                </div> 
             </div>
         </div>
         <div data-w-id="97079bd5-1849-178d-0a33-b4d57f9fe06e" class="investors-section" id="about">
@@ -669,9 +687,12 @@
                                 data-w-id="752b1108-d925-24d6-152f-6ce632053693"
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1919px) 56vw, 640px"
                                 alt="" class="investors-chart-image" />
-                            <div class="investors-chart-market-shape"><img src="./images/logo.png" width="250"
+                            <div class="investors-chart-market-shape">
+<!-- <img src="./images/logo.png" width="250"
                                     loading="lazy" style="opacity:0" data-w-id="1b794d36-108c-5345-46ca-c88e9b8a9321"
-                                    alt="" class="investors-chart-market-shape-image" /></div>
+                                    alt="" class="investors-chart-market-shape-image" /> -->
+
+                            </div>
                         </div>
                         <div class="investors-chart-shape" style="background-color: #00c028e2;"></div>
                     </div>
